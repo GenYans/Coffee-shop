@@ -6,7 +6,7 @@ const AppHeader = () => {
             <div className="container">
                 <nav className="app-header-nav">
                     <ul className="app-header-list">
-                        <img src="img/coffee-beans.png" alt="logo" />
+                        <img src="" alt="logo" />
                         <li className="app-header-item">Coffee house</li>
                         <li className="app-header-item">Our coffee</li>
                         <li className="app-header-item">For your pleasure</li>
@@ -16,7 +16,7 @@ const AppHeader = () => {
                 <h1 className="app-header-header">Everything You Love About Coffee</h1>
                 <div className="app-header-border">
                     <div className="bigborderleft"></div>
-                    <img src="img/coffee-beans.png" alt="logo" />
+                    <img src="Beans logo.svg" alt="logo" />
                     <div className="bigborderright"></div>
                 </div>
 
