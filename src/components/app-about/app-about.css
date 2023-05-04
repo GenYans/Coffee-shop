@@ -1,0 +1,29 @@
+.app-about {
+    min-height: 520px;
+}
+.app-header-subheader {
+    margin-top: 80px;
+    font-family: 'Merienda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+}
+
+.app-header-descr {
+    margin-top: 40px;
+    width: 589px;
+    height: 223px;
+    font-family: 'Merienda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+.app-header-text {
+    margin-top: 20px;
+}
