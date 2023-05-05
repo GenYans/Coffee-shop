@@ -1,3 +1,6 @@
+import LogoWhite from 'icons/logo-white.svg';
+import BorderLogoWhite from 'icons/Border-logo-white.svg';
+
 import './app-header.scss';
 
 const AppHeader = () => {
@@ -6,7 +9,7 @@ const AppHeader = () => {
             <div className="container">
                 <nav className="app-header-nav">
                     <ul className="app-header-list">
-                        <img src="icons/logo-white.svg" alt="logo" />
+                        <img src={LogoWhite} alt="logo" />
                         <li className="app-header-item"><button>Coffee house</button></li>  
                         <li className="app-header-item"><button>Our coffee</button></li>
                         <li className="app-header-item"><button>For your pleasure</button></li>
@@ -16,7 +19,7 @@ const AppHeader = () => {
                 <h1 className="app-header-header">Everything You Love About Coffee</h1>
                 <div className="app-header-border">
                     <div className="bigborderleft"></div>
-                    <img src="icons/Border-logo-white.svg" alt="Border-logo-white"/>
+                    <img src={BorderLogoWhite} alt="Border-logo-white"/>
                     <div className="bigborderright"></div>
                 </div>
 

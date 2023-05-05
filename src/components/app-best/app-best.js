@@ -1,3 +1,7 @@
+import SolimoCoffee from 'img/SolimoCoffee.png';
+import PrestoCoffee from 'img/PrestoCoffee.png';
+import AromisticoCoffee from 'img/AromisticoCoffee.png';
+
 import './app-best.scss';
 
 const AppBest = () => {
@@ -8,21 +12,21 @@ const AppBest = () => {
 
                 <div className="app-best-item">
                     <div className="app-best-item-wrapper">
-                        <img src="img/SolimoCoffee.png" alt="SolimoCoffee" />
+                        <img src={SolimoCoffee} alt="SolimoCoffee" />
                         <div className="app-best-item-descr">Solimo Coffee Beans 2 kg</div>
                         <div className="app-best-item-price">10.73$</div>
                     </div>
                 </div>
                 <div className="app-best-item">
                     <div className="app-best-item-wrapper">
-                        <img src="img/PrestoCoffee.png" alt="SolimoCoffee" />
+                        <img src={PrestoCoffee} alt="SolimoCoffee" />
                         <div className="app-best-item-descr">Presto Coffee Beans 1 kg</div>
                         <div className="app-best-item-price">15.99$</div>
                     </div>
                 </div>
                 <div className="app-best-item">
                     <div className="app-best-item-wrapper">
-                        <img src="img/AromisticoCoffee.png" alt="SolimoCoffee" />
+                        <img src={AromisticoCoffee} alt="SolimoCoffee" />
                         <div className="app-best-item-descr">AROMISTICO Coffee 1 kg</div>
                         <div className="app-best-item-price">6.99$</div>
                     </div>

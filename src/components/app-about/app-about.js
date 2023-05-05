@@ -1,3 +1,4 @@
+import BorderLogoBlack from 'icons/Border-logo-black.svg';
 import './app-about.scss';
 
 const AppAbout = () => {
@@ -7,7 +8,7 @@ const AppAbout = () => {
                 <h2 className="app-about-subheader">About Us</h2>
                 <div className="app-about-border">
                     <div className="bigborderleft"></div>
-                    <img src="icons/Border-logo-black.svg" alt="Border-logo-black" />
+                    <img src={BorderLogoBlack} alt="Border-logo-black" />
                     <div className="bigborderright"></div>
                 </div>
                 <div className="app-about-descr">
