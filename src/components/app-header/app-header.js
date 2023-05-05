@@ -1,4 +1,4 @@
-import './app-header.css';
+import './app-header.scss';
 
 const AppHeader = () => {
     return (
@@ -6,17 +6,17 @@ const AppHeader = () => {
             <div className="container">
                 <nav className="app-header-nav">
                     <ul className="app-header-list">
-                        <img src="" alt="logo" />
-                        <li className="app-header-item">Coffee house</li>
-                        <li className="app-header-item">Our coffee</li>
-                        <li className="app-header-item">For your pleasure</li>
+                        <img src="icons/logo-white.svg" alt="logo" />
+                        <li className="app-header-item"><button>Coffee house</button></li>  
+                        <li className="app-header-item"><button>Our coffee</button></li>
+                        <li className="app-header-item"><button>For your pleasure</button></li>
                     </ul>
                 </nav>
 
                 <h1 className="app-header-header">Everything You Love About Coffee</h1>
                 <div className="app-header-border">
                     <div className="bigborderleft"></div>
-                    <img src="Beans logo.svg" alt="logo" />
+                    <img src="icons/Border-logo-white.svg" alt="Border-logo-white"/>
                     <div className="bigborderright"></div>
                 </div>
 

@@ -1,0 +1,23 @@
+.app-footer {
+    text-align: center;
+    min-height: 150px;
+    &-list {
+        display: inline-flex;
+        margin-top: 30px;
+        list-style-type: none; 
+    }
+    &-item {
+        margin: 0 20px 0 20px;
+        font-style: normal;
+        font-weight: 400;
+        button {
+            background-color: transparent;
+            border: 0;
+            color: black;
+            cursor: pointer;
+        }
+    }
+    &-border {
+        margin-top: 30px;
+    }
+}

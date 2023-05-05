@@ -1,0 +1,71 @@
+.app-header {
+    background-image: url('../../../public/img/bcgr.png');
+    min-height: 640px;
+    background-size: 100%;
+    &-list {
+        display: inline-flex;
+        margin-top: 30px;
+        list-style-type: none;  
+    }
+    &-item {
+        margin: 0 20px 0 20px;
+        font-style: normal;
+        font-weight: 400;
+        button {
+            background-color: transparent;
+            border: 0;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+    }
+    &-header {
+        margin-top: 111px;
+        font-weight: 700;
+        font-size: 40px;
+        color: #FFFFFF;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+    }
+    &-subheader-1 {
+        text-align: center;
+        margin-top: 35px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 35px;
+        color: #FFFFFF;
+    }
+    &-subheader-2 {
+        text-align: center;
+        margin-top: 20px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 35px;
+        color: #FFFFFF;
+    }
+    &-btn {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 120px;
+        background-color: transparent;
+        height: 30px;
+        border: 2px solid #FFFFFF;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 3px;
+        color: #FFFFFF;
+        cursor: pointer; 
+        &:hover {
+            background-color: #FFFFFF;
+            color: black;
+            transition: 1.0s ease; 
+        }
+    }
+    &-border {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
