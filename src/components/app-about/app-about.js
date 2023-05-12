@@ -1,4 +1,4 @@
-import BorderLogoBlack from 'icons/Border-logo-black.svg';
+import BorderLogoBlack from '../../resources/icons/Border-logo-black.svg';
 import './app-about.scss';
 
 const AppAbout = () => {

@@ -1,5 +1,5 @@
-import LogoBlack from 'icons/logo-black.svg';
-import BorderLogoBlack from 'icons/Border-logo-black.svg';
+import LogoBlack from '../../resources/icons/logo-black.svg';
+import BorderLogoBlack from '../../resources/icons/Border-logo-black.svg';
 
 import './app-footer.scss';
 

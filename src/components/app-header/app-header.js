@@ -1,5 +1,5 @@
-import LogoWhite from 'icons/logo-white.svg';
-import BorderLogoWhite from 'icons/Border-logo-white.svg';
+import LogoWhite from '../../resources/icons/logo-white.svg';
+import BorderLogoWhite from '../../resources/icons/Border-logo-white.svg';
 
 import './app-header.scss';
 
