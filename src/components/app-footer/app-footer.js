@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom';
+
 import LogoBlack from '../../resources/icons/logo-black.svg';
 import BorderLogoBlack from '../../resources/icons/Border-logo-black.svg';
 
@@ -10,9 +12,9 @@ const AppFooter = () => {
                 <nav className="app-footer-nav">
                     <ul className="app-footer-list">
                         <img src={LogoBlack} alt="logo" />
-                        <li className="app-footer-item"><button>Coffee house</button></li>  
-                        <li className="app-footer-item"><button>Our coffee</button></li>
-                        <li className="app-footer-item"><button>For your pleasure</button></li>
+                        <li className="app-footer-item"><Link to='/CoffeeHouse'>Coffee house</Link></li>  
+                        <li className="app-footer-item"><Link to='/OurCoffee'>Our coffee</Link></li>
+                        <li className="app-footer-item"><Link to='/ForYourPleasure'>For your pleasure</Link></li>
                     </ul>
                 </nav>
                 <div className="app-footer-border">
