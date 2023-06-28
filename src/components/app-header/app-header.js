@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom';
+
 import LogoWhite from '../../resources/icons/logo-white.svg';
 import BorderLogoWhite from '../../resources/icons/Border-logo-white.svg';
 
@@ -10,9 +12,9 @@ const AppHeader = () => {
                 <nav className="app-header-nav">
                     <ul className="app-header-list">
                         <img src={LogoWhite} alt="logo" />
-                        <li className="app-header-item"><button>Coffee house</button></li>  
-                        <li className="app-header-item"><button>Our coffee</button></li>
-                        <li className="app-header-item"><button>For your pleasure</button></li>
+                        <li className="app-header-item"><Link to='/CoffeeHouse'>Coffee house</Link></li>  
+                        <li className="app-header-item"><Link to='/OurCoffee'>Our coffee</Link></li>
+                        <li className="app-header-item"><Link to='/ForYour Pleasure'>For your pleasure</Link></li>
                     </ul>
                 </nav>
 
