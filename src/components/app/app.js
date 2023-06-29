@@ -12,6 +12,7 @@ import AppFooter from '../app-footer/app-footer';
 import OurCoffeeAbout from "../../pages/our-coffee/our-coffee-about/our-coffee-about";
 import CoffeeHouse from "../../pages/coffee-house/coffee-house";
 import OurCoffeeHeader from "../../pages/our-coffee/our-coffee-header/our-coffee-header";
+import OurCoffeeCards from "../../pages/our-coffee/our-coffee-cards/our-coffee-cards";
 
 import './app.css';
 
@@ -32,6 +33,7 @@ function App () {
                     <Route exact path='/OurCoffee'>
                         <OurCoffeeHeader/>
                         <OurCoffeeAbout/>
+                        <OurCoffeeCards/>
                     </Route>
                 </Switch>
             </div>

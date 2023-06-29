@@ -1,0 +1,40 @@
+.our-coffee-cards {
+    margin-top: 60px;
+    text-align: center;
+    &-wrapper {
+        display: inline-flex;
+        align-items: center;
+        color: #000;
+        font-size: 14px;
+        font-weight: 400;
+        &-descr1 {
+            margin-right: 20px;
+        }
+        &-descr2 {
+            margin-right: 30px;
+        }
+        input {
+            margin-right: 83px;
+            width: 180px;
+            height: 30px;
+            flex-shrink: 0;
+            border-radius: 4px;
+            background: #FFF;
+            box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+            border: none;
+        }
+        &-btn {
+            margin-right: 5px;
+            width: 75px;
+            height: 30px;
+            border: none;
+            flex-shrink: 0;
+            background: #FFF;
+            box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+            cursor: pointer;
+            &:hover {
+                background-color: #d5d5d53e;
+            }
+        }
+    }
+}
