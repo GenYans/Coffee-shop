@@ -1,0 +1,17 @@
+.our-coffee-info {
+    &-wrapper {
+        margin-top: 70px;
+        display: grid;
+        min-height: 455px;
+        column-gap: 42px; 
+        justify-content: center;
+        grid-template-columns: repeat(2, 420px);
+    }
+    &-text {
+        text-align: center;
+    }
+    &-subheader {
+        font-size: 24px;
+        margin-bottom: 21px;
+    }
+}

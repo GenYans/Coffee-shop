@@ -10,8 +10,8 @@ const OurCoffeeHeader = () => {
                 <section className='our-coffee-header'>
                     <nav className="our-coffee-nav">
                         <ul className="our-coffee-list">
-                            <Link to='/'><img src={LogoWhite} alt="logo" /></Link>
-                            <li className="our-coffee-item"><Link to='/CoffeeHouse'>Coffee house</Link></li>  
+                            <img src={LogoWhite} alt="logo" />
+                            <li className="our-coffee-item"><Link to='/'>Coffee house</Link></li>  
                             <li className="our-coffee-item"><Link to='/OurCoffee'>Our coffee</Link></li>
                             <li className="our-coffee-item"><Link to='/ForYourPleasure'>For your pleasure</Link></li>
                         </ul>

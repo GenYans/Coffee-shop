@@ -13,6 +13,7 @@ import OurCoffeeAbout from "../../pages/our-coffee/our-coffee-about/our-coffee-a
 import CoffeeHouse from "../../pages/coffee-house/coffee-house";
 import OurCoffeeHeader from "../../pages/our-coffee/our-coffee-header/our-coffee-header";
 import OurCoffeeCards from "../../pages/our-coffee/our-coffee-cards/our-coffee-cards";
+import OurCoffeeInfo from "../../pages/our-coffee/our-coffee-info/our-coffee-info";
 
 import './app.css';
 
@@ -34,6 +35,12 @@ function App () {
                         <OurCoffeeHeader/>
                         <OurCoffeeAbout/>
                         <OurCoffeeCards/>
+                        <AppFooter/>
+                    </Route>
+                    <Route exact path='/OurCoffeeInfo'>
+                        <OurCoffeeHeader/>
+                        <OurCoffeeInfo/>
+                        <AppFooter/>
                     </Route>
                 </Switch>
             </div>

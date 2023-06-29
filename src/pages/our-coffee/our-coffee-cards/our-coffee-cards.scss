@@ -1,7 +1,7 @@
 .our-coffee-cards {
     margin-top: 60px;
     text-align: center;
-    &-wrapper {
+    &-search {
         display: inline-flex;
         align-items: center;
         color: #000;
@@ -33,6 +33,28 @@
             box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
             cursor: pointer;
             &:hover {
+                background-color: #d5d5d53e;
+            }
+        }
+    }
+    &-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 220px);  
+        column-gap: 71px; 
+        justify-content: center;
+        min-height: 640px;
+        margin-top: 60px;
+        &-card {
+            color: #000;
+            text-decoration: none;
+            width: 220px;
+            height: 260px;
+            border-radius: 8px;
+            background: #FFF;
+            box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+            font-size: 14px;
+            &:hover {
+                cursor: pointer;
                 background-color: #d5d5d53e;
             }
         }

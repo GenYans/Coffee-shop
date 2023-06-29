@@ -12,7 +12,7 @@ const AppHeader = () => {
                 <nav className="app-header-nav">
                     <ul className="app-header-list">
                         <img src={LogoWhite} alt="logo" />
-                        <li className="app-header-item"><Link to='/CoffeeHouse'>Coffee house</Link></li>  
+                        <li className="app-header-item"><Link to='/'>Coffee house</Link></li>  
                         <li className="app-header-item"><Link to='/OurCoffee'>Our coffee</Link></li>
                         <li className="app-header-item"><Link to='/ForYour Pleasure'>For your pleasure</Link></li>
                     </ul>
