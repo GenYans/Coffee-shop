@@ -1,0 +1,33 @@
+.our-coffee-beans {
+    &-wrapper {
+        min-height: 355px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2, 400px);
+        margin-top: 70px;
+        text-align: center;
+    }
+    &-subheader {
+        margin-bottom: 20px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+        color: #000000; 
+    }
+    &-descr {
+        margin-top: 25.7px;
+        color: #000;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+    }
+    &-line {
+        margin-top: 60px;
+        width: 240px;
+        height: 1px;
+        background: #000;
+    }
+}

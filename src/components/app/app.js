@@ -9,8 +9,9 @@ import AppAbout from '../app-about/app-about';
 import AppBest from '../app-best/app-best';
 import AppFooter from '../app-footer/app-footer';
 
+import OurCoffeeAbout from "../../pages/our-coffee/our-coffee-about/our-coffee-about";
 import CoffeeHouse from "../../pages/coffee-house/coffee-house";
-import OurCoffee from "../../pages/our-coffee/our-coffee";
+import OurCoffeeHeader from "../../pages/our-coffee/our-coffee-header/our-coffee-header";
 
 import './app.css';
 
@@ -29,7 +30,8 @@ function App () {
                         <CoffeeHouse/>
                     </Route>
                     <Route exact path='/OurCoffee'>
-                        <OurCoffee/>
+                        <OurCoffeeHeader/>
+                        <OurCoffeeAbout/>
                     </Route>
                 </Switch>
             </div>

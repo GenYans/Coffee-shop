@@ -1,0 +1,32 @@
+.our-coffee {
+    background-image: url("../../../resources/img/bcgr2.png");
+    height: 240px;
+    min-height: 260px;
+    &-header {
+        min-height: 260px;
+    }
+    &-list {
+        display: inline-flex;
+        margin-top: 30px;
+        list-style-type: none;  
+    }
+    &-item {
+        margin: 0 20px 0 20px;
+        font-style: normal;
+        font-weight: 400;
+        a {
+            text-decoration: none;
+            background-color: transparent;
+            border: 0;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+    }
+    &-title {
+        text-align: center;
+        color: #FFF;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+    }
+}
