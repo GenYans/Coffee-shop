@@ -1,7 +1,8 @@
 .our-coffee {
+    background-image: url("../../resources/img/bcgr2.png");
+    height: 240px;
+    min-height: 260px;
     &-header {
-        background-image: url('../../resources/img/bcgr2.png');
-        background-size: 100%;
         min-height: 260px;
     }
     &-list {
@@ -30,12 +31,14 @@
     }
     
     &-beans {
-        min-height: 485px;
-        display: grid;
-        justify-content: center;
-        grid-template-columns: repeat(2, 400px);
-        margin-top: 70px;
-        text-align: center;
+        &-wrapper {
+            min-height: 355px;
+            display: grid;
+            justify-content: center;
+            grid-template-columns: repeat(2, 400px);
+            margin-top: 70px;
+            text-align: center;
+        }
         &-subheader {
             margin-bottom: 20px;
             font-style: normal;
