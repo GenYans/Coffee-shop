@@ -6,6 +6,10 @@
         column-gap: 42px; 
         justify-content: center;
         grid-template-columns: repeat(2, 420px);
+        img {
+            max-width: 400px;
+            max-height: 350px;
+        }
     }
     &-text {
         text-align: center;

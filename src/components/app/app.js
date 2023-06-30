@@ -12,9 +12,10 @@ import AppFooter from '../app-footer/app-footer';
 import OurCoffeeAbout from "../../pages/our-coffee/our-coffee-about/our-coffee-about";
 import CoffeeHouse from "../../pages/coffee-house/coffee-house";
 import OurCoffeeHeader from "../../pages/our-coffee/our-coffee-header/our-coffee-header";
-import OurCoffeeCards from "../../pages/our-coffee/our-coffee-cards/our-coffee-cards";
 import OurCoffeeInfo from "../../pages/our-coffee/our-coffee-info/our-coffee-info";
 import ForYourPleasure from "../../pages/for-your-pleasure/for-your-pleasure";
+import OurCoffeeList from "../../pages/our-coffee/our-coffee-list/our-coffee-list";
+import OurCoffeeSearch from "../../pages/our-coffee/our-coffee-search/our-coffee-search";
 
 import './app.css';
 
@@ -35,7 +36,8 @@ const App = () => {
                     <Route exact path='/OurCoffee'>
                         <OurCoffeeHeader/>
                         <OurCoffeeAbout/>
-                        <OurCoffeeCards/>
+                        <OurCoffeeSearch/>
+                        <OurCoffeeList/>
                         <AppFooter/>
                     </Route>
                     <Route exact path='/OurCoffeeInfo'>

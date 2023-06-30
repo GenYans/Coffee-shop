@@ -1,13 +1,13 @@
 import '../../our-coffee/our-coffee-info/our-coffee-info.scss';
 
-import Aromastico from '../../../resources/img/Aromastico.jpg';
+import Venezia from '../../../resources/img/Venezia.jpg';
 import BorderLogoBlack from '../../../resources/icons/Border-logo-black.svg';
 
 const OurCoffeeInfo = () => {
     return (
         <section className='our-coffee-info'>
             <div className='our-coffee-info-wrapper'>
-                <img src={Aromastico} alt="girl" />
+                <img src={Venezia} alt="coffee" />
                 <div className='our-coffee-info-text'>
                     <div className='our-coffee-info-subheader'>About it</div>
                     <img src={BorderLogoBlack} alt="BorderLogoWhite" />

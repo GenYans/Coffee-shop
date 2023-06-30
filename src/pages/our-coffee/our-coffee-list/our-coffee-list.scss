@@ -1,0 +1,11 @@
+.our-coffee-list {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    &-ul {
+        display: grid;
+        grid-template-columns: repeat(3, 220px);
+        column-gap: 71px; 
+        min-height: 640px;
+    }
+}

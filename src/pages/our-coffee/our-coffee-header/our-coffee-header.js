@@ -9,7 +9,7 @@ const OurCoffeeHeader = () => {
               <div className="container">
                 <section className='our-coffee-header'>
                     <nav className="our-coffee-nav">
-                        <ul className="our-coffee-list">
+                        <ul className="our-coffee-roster">
                             <img src={LogoWhite} alt="logo" />
                             <li className="our-coffee-item"><Link to='/'>Coffee house</Link></li>  
                             <li className="our-coffee-item"><Link to='/OurCoffee'>Our coffee</Link></li>
