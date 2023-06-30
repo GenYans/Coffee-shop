@@ -10,7 +10,7 @@ const OurCoffeeCards = () => {
                 <div className="our-coffee-cards-search">
                     <div className="our-coffee-cards-search-descr1">Looking for</div>
                     <input type="text" required
-                    className=""
+                    className="our-coffee-cards-search-input"
                     placeholder="start typing here..."
                     name="search" />
                     <div className="our-coffee-cards-search-descr2">Or filter</div>

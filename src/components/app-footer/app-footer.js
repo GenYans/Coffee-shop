@@ -12,7 +12,7 @@ const AppFooter = () => {
                 <nav className="app-footer-nav">
                     <ul className="app-footer-list">
                         <img src={LogoBlack} alt="logo" />
-                        <li className="app-footer-item"><Link to='/CoffeeHouse'>Coffee house</Link></li>  
+                        <li className="app-footer-item"><Link to='/'>Coffee house</Link></li>  
                         <li className="app-footer-item"><Link to='/OurCoffee'>Our coffee</Link></li>
                         <li className="app-footer-item"><Link to='/ForYourPleasure'>For your pleasure</Link></li>
                     </ul>

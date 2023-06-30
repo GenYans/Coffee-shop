@@ -5,7 +5,7 @@ const AppAbout = () => {
     return(
         <div className='app-about'>
              <div className="container">
-                <h2 className="app-about-subheader">About Us</h2>
+                <h2 id='About' className="app-about-subheader">About Us</h2>
                 <div className="app-about-border">
                     <div className="bigborderleft"></div>
                     <img src={BorderLogoBlack} alt="Border-logo-black" />

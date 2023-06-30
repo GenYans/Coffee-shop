@@ -28,7 +28,7 @@ const AppHeader = () => {
                 <h2 className="app-header-subheader-1">We makes every day full of energy and taste</h2>
                 <h2 className="app-header-subheader-2">Want to try our beans?</h2>
 
-                <button className="app-header-btn">More</button>
+                <a href="#About"><button className="app-header-btn">More</button></a>
             </div>
         </div>
     )

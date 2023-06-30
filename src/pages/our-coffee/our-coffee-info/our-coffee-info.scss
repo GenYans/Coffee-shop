@@ -14,4 +14,15 @@
         font-size: 24px;
         margin-bottom: 21px;
     }
+    &-specification {
+        margin-top: 25.7px;
+        text-align: left;
+        font-size: 14px;
+    }
+    &-descr {
+        margin-top: 16px;
+        span {
+            font-size: 24px;
+        }
+    }
 }
