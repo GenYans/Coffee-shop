@@ -14,10 +14,11 @@ import CoffeeHouse from "../../pages/coffee-house/coffee-house";
 import OurCoffeeHeader from "../../pages/our-coffee/our-coffee-header/our-coffee-header";
 import OurCoffeeCards from "../../pages/our-coffee/our-coffee-cards/our-coffee-cards";
 import OurCoffeeInfo from "../../pages/our-coffee/our-coffee-info/our-coffee-info";
+import ForYourPleasure from "../../pages/for-your-pleasure/for-your-pleasure";
 
 import './app.css';
 
-function App () {
+const App = () => {
     return (
         <Router>
             <div className="app">
@@ -42,6 +43,12 @@ function App () {
                         <OurCoffeeInfo/>
                         <AppFooter/>
                     </Route>
+                    <Route exact path='/ForYourPleasure'>
+                        <OurCoffeeHeader/>
+                        <OurCoffeeAbout/>
+                        <ForYourPleasure/>
+                        <AppFooter/>
+                    </Route>     
                 </Switch>
             </div>
         </Router>
