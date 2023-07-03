@@ -1,6 +1,8 @@
 .our-coffee-cards-search {
-    margin: 60px 0 60px 0;
-    display: inline-flex;
+    margin-top: 60px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5, 180px);
     align-items: center;
     color: #000;
     font-size: 14px;
@@ -31,8 +33,22 @@
         background: #FFF;
         box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
         cursor: pointer;
-        &:hover {
-            background-color: #d5d5d53e;
+        &-active {
+            background-color: #e6cdaf;
+            box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+            transition: 1.0s ease; 
+            margin-right: 5px;
+            border: none;
+            width: 75px;
+            height: 30px;
         }
+        &:hover {
+            background-color: #e6cdaf;
+            box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+            transition: 1.0s ease; 
+        }
+    }
+    &-wrapper {
+        display: flex;
     }
     }

@@ -4,7 +4,9 @@
     &-list {
         display: inline-flex;
         margin-top: 30px;
+        font-size: 12px;
         list-style-type: none; 
+        align-items: center;
     }
     &-item {
         margin: 0 20px 0 20px;
