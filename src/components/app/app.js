@@ -13,7 +13,6 @@ import OurCoffeeAbout from "../../pages/our-coffee/our-coffee-about/our-coffee-a
 import CoffeeHouse from "../../pages/coffee-house/coffee-house";
 import OurCoffeeHeader from "../../pages/our-coffee/our-coffee-header/our-coffee-header";
 import OurCoffeeInfo from "../../pages/our-coffee/our-coffee-info/our-coffee-info";
-import ForYourPleasure from "../../pages/for-your-pleasure/for-your-pleasure-about/for-your-pleasure-about";
 import OurCoffeeList from "../../pages/our-coffee/our-coffee-list/our-coffee-list";
 import OurCoffeeSearch from "../../pages/our-coffee/our-coffee-search/our-coffee-search";
 
