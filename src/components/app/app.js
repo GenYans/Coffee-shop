@@ -26,9 +26,19 @@ import Venezia from '../../resources/img/Venezia.jpg';
 import Roma from '../../resources/img/Rome.jpg';
 import Garda from '../../resources/img/Garda.jpg';
 
+import axios from "axios";
+
+const baseUrl = 'https://64a3c464c3b509573b568190.mockapi.io/Coffee';
+
 class App extends Component {
     constructor(props) {
         super(props);
+
+        axios.get(baseUrl).then((res) => {
+            console.log(res.data[0]);
+            /* this.setState({res.data[0].name)}); */
+        });
+
         this.state = {
             data: [ // Имитация сервера
             {image: {Venezia}, name: "Solimo Coffee Beans 2 kg", country: "Venezia", price: 10.73, id: 1},
@@ -40,12 +50,13 @@ class App extends Component {
         ],
         term: '',
         filter: 'all'
-        }
+        };
     }
+
 
     searchEmp = (items, term) => {
         if (term.length === 0) {
-            return items
+            return items;
         }
 
         return items.filter(items => {
@@ -62,17 +73,17 @@ class App extends Component {
             case 'Venezia':
                 return items.filter(item => item.country === 'Venezia');
             case 'Roma':
-                return items.filter(item => item.country === 'Roma')
+                return items.filter(item => item.country === 'Roma');
             case 'Garda':
-                return items.filter(item => item.country === 'Garda')
+                return items.filter(item => item.country === 'Garda');
             default:
-                return items
+                return items;
         }
-    }
+    };
 
     onFilterSelect = (filter) => {
         this.setState({filter});
-    }
+    };
 
     render() { 
         const {data, term, filter} = this.state;
