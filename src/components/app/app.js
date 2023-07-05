@@ -22,10 +22,6 @@ import OurCoffeePleasureAbout from "../../pages/for-your-pleasure/for-your-pleas
 import './app.css';
 import { Component } from "react";
 
-import Venezia from '../../resources/img/Venezia.jpg';
-import Roma from '../../resources/img/Rome.jpg';
-import Garda from '../../resources/img/Garda.jpg';
-
 import axios from "axios";
 
 const baseUrl = 'https://64a3c464c3b509573b568190.mockapi.io/Coffee';
@@ -35,21 +31,13 @@ class App extends Component {
         super(props);
 
         axios.get(baseUrl).then((res) => {
-            console.log(res.data[0]);
-            /* this.setState({res.data[0].name)}); */
+            this.setState({data: res.data});
         });
 
         this.state = {
-            data: [ // Имитация сервера
-            {image: {Venezia}, name: "Solimo Coffee Beans 2 kg", country: "Venezia", price: 10.73, id: 1},
-            {image: {Roma}, name: "AROMISTICO Coffee 1 kg", country: "Roma", price: 6.99, id: 2},
-            {image: {Garda}, name: "Presto Coffee Beans 1 kg", country: "Garda", price: 15.99, id: 3},
-            {image: {Roma}, name: "AROMISTICO Coffee 1 kg", country: "Roma", price: 6.99, id: 4},
-            {image: {Venezia}, name: "Solimo Coffee Beans 2 kg", country: "Venezia", price: 10.73, id: 5},
-            {image: {Garda}, name: "Presto Coffee Beans 1 kg", country: "Garda", price: 15.99, id: 6}
-        ],
-        term: '',
-        filter: 'all'
+            data: [],
+            term: '',
+            filter: 'all'
         };
     }
 

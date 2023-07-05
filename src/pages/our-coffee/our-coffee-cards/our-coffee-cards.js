@@ -8,7 +8,7 @@ const OurCoffeeCards = ({name, country, price}) => {
         <section className='our-coffee-cards'>
             <div className="container">
                 <div className='our-coffee-cards-wrapper'>
-                    <Link to='/OurCoffeeInfo' className="our-coffee-cards-wrapper-card">
+                    <Link to={`/OurCoffeeInfo`} className="our-coffee-cards-wrapper-card">
                         <img src={Venezia} alt="AromisticoCoffee" />
                         <div className="our-coffee-cards-wrapper-card-descr">{name}</div>
                         <div className='our-coffee-cards-wrapper-card-country'>{country}</div>
